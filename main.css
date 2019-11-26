@@ -1,0 +1,32 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    font-size: large;
+}
+
+table{
+    width: 80%;
+    table-layout: fixed;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+td {
+    text-align: center;
+}
+
+td.special {
+    padding: 0;
+    white-space: pre-line;
+    background: yellow;
+    cursor: pointer;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+}
