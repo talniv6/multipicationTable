@@ -30,3 +30,13 @@ td.special {
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
 }
+
+@media screen and (max-width:800px) {
+    table {
+        width: 100%;
+    }
+    td{
+        font-size: small;
+    }
+
+}
